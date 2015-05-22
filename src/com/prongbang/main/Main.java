@@ -22,7 +22,7 @@ public class Main {
 
         FindVideoYouTube ytd = new FindVideoYouTube();
         FileDownload fd = new FileDownload();
-        String url = "https://www.youtube.com/watch?v=ObD1DtuibxE";
+        String url = "https://www.youtube.com/watch?v={id}";
         List<VideoQuality> videoList = ytd.getYouTubeVideoFromUrls(url);
 
         int i = 0;
