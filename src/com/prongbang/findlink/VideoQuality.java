@@ -17,7 +17,7 @@ public class VideoQuality {
      * @return the videoTitle
      */
     public String getVideoTitle() {
-        return videoTitle;
+        return videoTitle.replace("/", "-").replace("\\", "");
     }
 
     /**
